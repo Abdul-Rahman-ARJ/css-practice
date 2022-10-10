@@ -1,0 +1,29 @@
+body {
+    background-color:black;
+    font-size: medium;
+    color: white;
+}
+
+h1 {
+    background-color: rgba(0, 0, 255, 0.224);
+    text-align: center;
+    color: red;
+}
+
+p {
+    margin: 0px 10px;
+    text-align: right;
+}
+
+div{
+    padding: 25px;
+}
+ul{
+    /* padding: 50px; */
+    display: flex;
+    text-align: center;
+}
+
+ul li{
+    margin: 20px;
+}

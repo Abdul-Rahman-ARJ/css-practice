@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Selector Ex.</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        #container{
+           margin: 10rem;
+           padding: 30px 10rem;
+           background-color: white;
+        }
+        #center{
+            text-align: center;
+        }
+        #left{
+            text-align: left;
+        }
+        #right{
+            text-align: right;
+        }
+        #red{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <marquee behavior="scroll" direction="left" scrollamount="10" >
+    <h1 style="color: red; margin: 0 10%;">This Is Body</h1></marquee>
+    <div id="container">
+        <marquee behavior="scroll" direction="left" scrollamount="10" ><h1>This is ID Conatiner</h1></marquee>
+    <h1 id="center">This is H1 with id center</h1>
+    <h2 id="left">This is H2 with id left</h2>
+    <h3 id="right">This is H3</h3>
+    <h4 id="red">This is H4 with ID RED</h4>
+</div>
+</body>
+</html>
