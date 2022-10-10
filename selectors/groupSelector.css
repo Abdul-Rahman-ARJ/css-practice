@@ -1,0 +1,14 @@
+.container {
+    margin: 50px 420px;
+}
+
+/* this is group selectors */
+h1,
+h2 {
+    font-family: Verdana, sans-serif;
+}
+
+ul,
+li {
+    font-size: larger;
+}

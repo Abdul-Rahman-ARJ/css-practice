@@ -1,0 +1,13 @@
+.conatianer{
+    background-color: aliceblue;
+    margin: 10%;
+    padding: 50px;
+}
+/* This is universal Selector */
+*{
+    background-color: pink;
+    text-transform: capitalize;
+    font-family: Verdana;
+    text-decoration: dashed;
+    color: blue; 
+}

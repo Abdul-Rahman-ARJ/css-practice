@@ -1,0 +1,32 @@
+body {
+    background-color: red;
+}
+
+.container {
+    margin: 10rem;
+    padding: 30px 10rem;
+    background-color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.red {
+    color: red;
+}
+.grid{
+    display: flex;
+}
+
+.grid div:hover{
+    translate: 40px;
+}
